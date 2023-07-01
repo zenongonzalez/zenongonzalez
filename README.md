@@ -12,7 +12,7 @@ urls = ('/', 'ingreso')
 
 app = web.application(urls, globals())
 
-# Creamos nustro formulario:
+# Creamos nuestro formulario:
 login = form.Form(form.Textbox('usuario'),form.Password('clave'),form.Button('Iniciar'))
 
 class ingreso:
